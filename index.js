@@ -18,7 +18,7 @@ app.post('/new-message', function(req, res) {
         {command: "Page", text: "Pretty mo girl"} ,
         {command: "Test", text: "this is a reply to test"}
   ];
-
+ 
 
 
   if (!message) { // ( message.text.toLowerCase().indexOf('page') < 0) {
